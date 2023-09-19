@@ -37,13 +37,15 @@ const Index = () => {
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-8">
         <h1 className="text-3xl font-bold mb-2">
-        Free YouTube Thumbnail Downloader <br></br> </h1>
+        &nbsp &nbsp Free YouTube Thumbnail Downloader <br></br> 
+        </h1>
        <h2 className="text-3xl font-bold mb-2">
         Easily Save Thumbnails in PNG, JPG, 4K & 8K Formats</h2> 
         
         <p className="text-gray-600">
-          Download high-quality thumbnails from YouTube videos.
-        </p>
+        Youtube Thumbnail downloader is an easy tool <br></br>
+        which helps you to Download any Youtube thumbnail<br></br>
+         or to save your device in png, jpg, 4K & 8K format</p>
       </header>
       <div className="text-center">
         <input
