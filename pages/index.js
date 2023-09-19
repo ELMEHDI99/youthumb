@@ -37,7 +37,7 @@ const Index = () => {
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-8" style={{ width: '42%' }}>
         <h1 className="text-3xl font-bold mb-2">
-        &nbsp; &nbsp; Free YouTube Thumbnail Downloader <br></br> 
+        &nbsp; Free YouTube Thumbnail Downloader <br></br> 
         </h1>
        <h2 className="text-3xl font-bold mb-2">
        Easily Save Thumbnails in PNG, JPG, 4K & 8K Formats</h2> 
