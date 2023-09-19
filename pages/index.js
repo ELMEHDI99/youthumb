@@ -63,8 +63,29 @@ const Index = () => {
         >
           Download Thumbnails
         </button>
+      </div>
 
-        <div className="mt-8 text-left">
+      
+      {thumbnailOptions.length > 0 && (
+        <div className="mt-8">
+          <h2 className="text-xl font-semibold mb-4">Thumbnail Options</h2>
+          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {thumbnailOptions.map((option, index) => (
+              <div key={index} className="thumbnail-option">
+                <img src={option.url} alt={`Thumbnail ${index + 1}`} />
+                <button
+                  className="btn-blue mt-2"
+                  onClick={() => copy(option.url)}
+                >
+                  Copy Image URL
+                </button>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+<div className="mt-8 text-left" style={{ width: '42%' }}>
           <p>
             <strong>Get High-Quality YouTube Thumbnails with Our Free HD Thumbnail Downloader</strong>
           </p>
@@ -148,28 +169,6 @@ const Index = () => {
             Enhance your content's visual appeal and engagement with high-quality YouTube thumbnails. Our tool is free, easy to use, and requires no app installation. Download thumbnails today and make your videos stand out!
           </p>
         </div>
-        
-      </div>
-
-      
-      {thumbnailOptions.length > 0 && (
-        <div className="mt-8">
-          <h2 className="text-xl font-semibold mb-4">Thumbnail Options</h2>
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {thumbnailOptions.map((option, index) => (
-              <div key={index} className="thumbnail-option">
-                <img src={option.url} alt={`Thumbnail ${index + 1}`} />
-                <button
-                  className="btn-blue mt-2"
-                  onClick={() => copy(option.url)}
-                >
-                  Copy Image URL
-                </button>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
     </div>
   );
 };
