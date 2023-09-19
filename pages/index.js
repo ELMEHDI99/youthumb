@@ -55,6 +55,9 @@ const Index = () => {
           value={videoURL}
           onChange={(e) => setVideoURL(e.target.value)}
         />
+        <p className="text-gray-600">
+        Example: https://www.youtube.com/watch?v=NNS5Piu-EII
+        </p>
         <button
           className="btn-blue mt-2"
           onClick={() => getYouTubeThumbnail(videoURL)}
