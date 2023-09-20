@@ -178,7 +178,7 @@ const Index = () => {
           </p>
         </div>
 
-        <div class="black-footer">
+        <div class="black-footer" style={{ width: '42%' }}>
         &copy; 2023 Free YouTube Thumbnail Downloader. All Rights Reserved.
       </div>
 
