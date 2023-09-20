@@ -88,16 +88,6 @@ const Index = () => {
         </div>
       )}
 
-<div className="mt-8 text-left" style={{ width: '42%' }}>
-
-<footer class="bg-gray-900 text-white py-4">
-<div class="container mx-auto text-center">
-  <p>&copy; 2023 Free YouTube Thumbnail Downloader</p>
-  <p>Made with <span class="text-red-500">&hearts;</span> by Your Company</p>
-</div>
-</footer>
-
-</div>
 
 <br></br>
 <br></br>
@@ -187,6 +177,11 @@ const Index = () => {
             Enhance your content's visual appeal and engagement with high-quality YouTube thumbnails. Our tool is free, easy to use, and requires no app installation. Download thumbnails today and make your videos stand out!
           </p>
         </div>
+
+        <div class="black-footer">
+        &copy; 2023 Free YouTube Thumbnail Downloader. All Rights Reserved.
+      </div>
+
     </div>
 
   );
