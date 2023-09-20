@@ -2,6 +2,8 @@
 
 /* Set the base font and background color for the entire app */
 body {
+  margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
   background-color: #f7fafc;
 }
@@ -84,8 +86,4 @@ input[type="text"] + button {
   text-align: center;
   padding: 10px 0;
   font-size: 14px;
-
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
 }
