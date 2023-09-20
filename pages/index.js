@@ -46,6 +46,9 @@ const Index = () => {
         Youtube Thumbnail Downloader is an easy tool that helps you download any YouTube thumbnail for free! Instantly grab high-quality thumbnails in various formats. No login required. Explore and download with ease.
         </p>
       </header>
+
+      <br></br>
+
       <div className="text-center">
         <input
           type="text"
@@ -84,6 +87,17 @@ const Index = () => {
           </div>
         </div>
       )}
+
+<div className="mt-8 text-left" style={{ width: '42%' }}>
+
+<footer class="bg-gray-900 text-white py-4">
+<div class="container mx-auto text-center">
+  <p>&copy; 2023 Free YouTube Thumbnail Downloader</p>
+  <p>Made with <span class="text-red-500">&hearts;</span> by Your Company</p>
+</div>
+</footer>
+
+</div>
 
 <br></br>
 <br></br>
@@ -174,14 +188,8 @@ const Index = () => {
           </p>
         </div>
     </div>
+
   );
 };
-
-<footer class="bg-gray-900 text-white py-4">
-  <div class="container mx-auto text-center">
-    <p>&copy; 2023 Free YouTube Thumbnail Downloader</p>
-    <p>Made with <span class="text-red-500">&hearts;</span> by Your Company</p>
-  </div>
-</footer>
 
 export default Index;
