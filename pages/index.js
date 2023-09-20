@@ -58,7 +58,7 @@ const Index = () => {
           onChange={(e) => setVideoURL(e.target.value)}
         />
         <p className="text-gray-600">
-        Example: https://www.youtube.com/watch?v=NNS5Piu-EII
+        <b>Example:</b> https://www.youtube.com/watch?v=NNS5Piu-EII
         </p>
         <button
           className="btn-blue mt-2"
@@ -177,6 +177,8 @@ const Index = () => {
             Enhance your content's visual appeal and engagement with high-quality YouTube thumbnails. Our tool is free, easy to use, and requires no app installation. Download thumbnails today and make your videos stand out!
           </p>
         </div>
+          
+          <br></br>
 
         <div class="black-footer" style={{ width: '100%' }}>
         &copy; 2023 Free YouTube Thumbnail Downloader. All Rights Reserved.
