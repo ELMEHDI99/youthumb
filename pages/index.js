@@ -85,6 +85,10 @@ const Index = () => {
         </div>
       )}
 
+<br></br>
+<br></br>
+<br></br>
+
 <div className="mt-8 text-left" style={{ width: '42%' }}>
           <p>
             <strong>Get High-Quality YouTube Thumbnails with Our Free HD Thumbnail Downloader</strong>
@@ -172,5 +176,12 @@ const Index = () => {
     </div>
   );
 };
+
+<footer class="bg-gray-900 text-white py-4">
+  <div class="container mx-auto text-center">
+    <p>&copy; 2023 Free YouTube Thumbnail Downloader</p>
+    <p>Made with <span class="text-red-500">&hearts;</span> by Your Company</p>
+  </div>
+</footer>
 
 export default Index;
