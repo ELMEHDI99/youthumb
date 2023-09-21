@@ -95,7 +95,7 @@ const Index = () => {
 
 <div className="mt-8 text-left" style={{ width: '42%' }}>
           <p>
-            <strong>Get High-Quality YouTube Thumbnails with Our Free HD Thumbnail Downloader</strong>
+            <strong>Get High-Quality YouTube Video Thumbnails with Our Free YouTube Thumbnail Downloader</strong>
           </p>
           <p>
             YouTube Thumbnail Download is your go-to online tool for downloading YouTube video thumbnails in five different qualities, including Full HD (1280x720), Standard (640×480), Medium (480×360), Normal (340×180), and Small (120×90).
