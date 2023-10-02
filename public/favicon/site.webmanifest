@@ -1,7 +1,7 @@
 {
-  "name": "Youtube Thumbnail Downloader",
-  "short_name": "YT Downloader",
-  "description": "Download high-quality thumbnails from YouTube videos.",
+  "name": "Free YouTube Thumbnail Downloader | Youtube Thumbnail Grabber",
+  "short_name": "Free YouTube Thumbnail Downloader",
+  "description": "FreeYouTubeThumbnailDownloader.com is your free online tool for downloading YouTube video thumbnails in different sizes and qualities. Simply enter the video URL to save the thumbnail. Experience the best YouTube thumbnail download today!",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
