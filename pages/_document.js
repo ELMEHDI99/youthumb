@@ -23,7 +23,9 @@ class MyDocument extends Document {
             href="/favicon/favicon-16x16.png"
           />
           <link rel="manifest" href="/favicon/site.webmanifest" />
-        
+          <meta name="google-adsense-account" content="ca-pub-3806025140354902"></meta>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3806025140354902"
+          crossorigin="anonymous"></script>
         </Head>
         <body>
           <Main />
